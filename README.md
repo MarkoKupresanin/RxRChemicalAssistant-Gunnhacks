@@ -22,3 +22,12 @@ I learned that the project choice was a bit ambitious to create in 24 hours, but
 
 ## What's next for RxR Chemistry Assistant
 I plan on taking more time after Gunnhacks to grow this project to be able to balance Single Replacement, Double Replacement, and Combustion Reactions. Possibly even a Stoichiometry converter as well.
+
+
+
+# How to run locally
+### Locate the ``main.py`` file.
+### Go to the line with ``app.run(...)``.
+### Change to ``app.run(port=4783)``, or whatever port you want
+### Run the command ``pip3 install -r requirements.txt`` in your terminal
+### Run the command ``python3 main.py`` in your terminal
