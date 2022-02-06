@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marvel&display=swap');
+
+#s_r1{
+    grid-area: "reactant1";
+    width: 3em;
+    height: 3em;
+}
+
+#s_r2{
+    grid-area: "reactant2";
+    width: 3em;
+    height: 3em;
+}
+
+#s_p1{
+    grid-area: "product";
+    width: 3em;
+    height: 3em;
+}
+
+#s_add{
+    grid-area:"plus";
+}
+
+#s_equal{
+    grid-area:"equals";
+}
+
+#s_submit{
+    grid-area:"submit"
+}
+
+#synthesisBlock{
+    display: grid;
+    grid-template-columns: 3em 50px 3em 50px 3em;
+    grid-template-areas: "reactant1 . plus . reactant2 . equals . product"
+                            " . "
+                            "submit";
+}
+
+.persistantTitle{
+    text-decoration: none;
+    font-family:"Orbitron", monospace;
+    text-align: center;
+}
+
+.persistantTitle:active{
+    color: violet;
+    text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+}
+
+body{
+    background-color: grey;
+    font-family: "Marvel", monospace;
+}
+
+.hompageButton{
+    background-color: rgb(77, 33, 134);
+    transition: 250ms;
+    width: 7em;
+    font-family: "Marvel", monospace;
+    font-size: 20px;
+    color: white;
+    margin-left:2em;
+}
+
+.hompageButton:active{
+    color: white;
+    transition: 250ms;
+    text-shadow:1px 1px 10px violet, 1px 1px 10px violet;
+}
+
+footer{
+    margin-top: 15em;
+    text-align: center;
+}

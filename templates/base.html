@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css')}}">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <a href="/" class="persistantTitle"><h1>RxR Chemical Assistant</h1></a>
+    <a href="https://github.com/MarkoKupresanin/RxRChemicalAssistant"><img style="position: absolute; top: 0; right: 0; border: 0; z-index:100;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Check me out on GitHub"></a>
+
+    {% block content %}
+    {% endblock %}
+
+    <footer>
+        <a href="/credits">Credits</a><br>
+        <p>Made by Marko Kupresanin, Gunnhacks 8.0</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Element & Ion searchup{% endblock %}
+{% block content %}
+<h2>Type in your Element or Polyatomic ion:</h2>
+<form action="#" method="POST" id="searchingInfo">
+    <input type="text" name='inputText', id="inputText",value="elName" placeholder="Element Name">
+    <input type="radio" name="idk" value="Element">Element<br>
+    <input type="radio" name="idk" value="PolyIon">Polyatomic Ion<br>
+    <input type="submit" value="Search!" id="search_submit">
+</form>
+
+
+{% endblock %}

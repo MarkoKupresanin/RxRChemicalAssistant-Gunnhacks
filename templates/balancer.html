@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}Solve{% endblock %}
+{% block content %}
+
+<h2>Synthesis Reactions</h2>
+<form action="#" method="POST" id="synthesisBlock">
+    <input type="text" name='s_r1', id="s_r1", value="one">
+    <p id="s_add">+</p>
+    <input type="text" name='s_r2', id="s_r2" value="two">
+    <p id="s_equal">=</p>
+    <input type="text" name='s_p1', id="s_p1", value="three">
+    <input type="submit" value="Solve Synthesis" id="s_submit">
+</form>
+
+
+<!-- <h2>Double/Single Replacement Reactions</h2>
+<form action="#" method="POST">
+    <p>Reactant 1</p>
+    <p><input type="text" name='a1'></p>
+    <p>Reactant 2</p>
+    <p><input type="text" name='b1'></p>
+    <p>Product 1</p>
+    <p><input type="text" name='c1'></p>
+    <p>Product 2</p>
+    <p><input type="text" name='d1'></p>
+    <p><input type="submit" value="Solve Replacement"></p>
+</form>
+
+<h2>Decomposition Reaction</h2>
+<form action="#" method="POST">
+    <p>Product</p>
+    <p><input type="text" name='a2'></p>
+    <p>Reactant 1</p>
+    <p><input type="text" name='b2'></p>
+    <p>Reactant 2</p>
+    <p><input type="text" name='c2'></p>
+    <p><input type="submit" value="Solve Decomposition"></p>
+</form> -->
+
+{% endblock %}
